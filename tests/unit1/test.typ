@@ -1,4 +1,4 @@
-#import "/src/lib.typ" as ib-exam
+#import "/src/lib.typ": *
 
 // TODO real tests
 #assert(true)

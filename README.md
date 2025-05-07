@@ -25,8 +25,8 @@ This is a template for creating exams, tests, quizzes, based on the IB exam form
 
     if configured correctly, whenever you create a tag `v...`, your package will be pushed onto a branch on the `REGISTRY_REPO`, from which you can then create a pull request against [typst/packages](https://github.com/typst/packages/)
 
-- [ ] remove/replace the example test case
-- [ ] (add your actual code, docs and tests)
+- [x] remove/replace the example test case
+- [x] (add your actual code, docs and tests)
 - [ ] remove this section from the README
 
 ## Getting Started
@@ -34,7 +34,7 @@ This is a template for creating exams, tests, quizzes, based on the IB exam form
 These instructions will get you a copy of the project up and running on the typst web app. Perhaps a short code example on importing the package and a very simple teaser usage.
 
 ```typ
-#import "@preview/:0.1.0": *
+#import "@preview/examine-ib:0.1.0": *
 
 #show: my-show-rule.with()
 #my-func()

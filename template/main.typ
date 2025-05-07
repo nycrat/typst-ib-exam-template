@@ -1,8 +1,8 @@
-#import "/src/lib.typ" as ib-exam
+#import "/src/lib.typ": *
 
-#show: ib-exam.conf.with(exam-id: [0000-0001])
+#show: conf.with(exam-id: [0000-0001])
 
-#ib-exam.title-page(
+#title-page(
   subject: [General Knowledge],
   level: [Higher Level],
   paper: [Paper 3],
@@ -10,7 +10,7 @@
   time-limit: [55 minutes],
 )
 
-#ib-exam.mcq(
+#mcq(
   [What is the capital of Canada?],
   [Toronto],
   [Ottawa],
@@ -18,7 +18,7 @@
   [Montreal],
 )
 
-#ib-exam.mcq(
+#mcq(
   [Which planet is known as the Red Planet?],
   [Earth],
   [Mars],
@@ -26,7 +26,7 @@
   [Venus],
 )
 
-#ib-exam.mcq(
+#mcq(
   [What is the main function of red blood cells?],
   [Fight infection],
   [Carry oxygen],
@@ -34,7 +34,7 @@
   [Produce hormones],
 )
 
-#ib-exam.mcq(
+#mcq(
   [Which Shakespeare play features the characters Rosencrantz and Guildenstern?],
   [Macbeth],
   [Hamlet],
@@ -42,17 +42,11 @@
   [Othello],
 )
 
-#ib-exam.mcq([What is the chemical symbol for gold?], [Gd], [Ag], [Au], [Go])
+#mcq([What is the chemical symbol for gold?], [Gd], [Ag], [Au], [Go])
 
-#ib-exam.mcq(
-  [In what year did World War II end?],
-  [1944],
-  [1945],
-  [1946],
-  [1947],
-)
+#mcq([In what year did World War II end?], [1944], [1945], [1946], [1947])
 
-#ib-exam.mcq(
+#mcq(
   [Which of the following is a renewable source of energy?],
   [Coal],
   [Wind],
@@ -60,7 +54,7 @@
   [Nuclear],
 )
 
-#ib-exam.mcq(
+#mcq(
   [What programming language is primarily used for web development alongside HTML and CSS?],
   [Python],
   [Java],
@@ -68,7 +62,7 @@
   [C++],
 )
 
-#ib-exam.mcq(
+#mcq(
   [Who painted the Mona Lisa?],
   [Vincent van Gogh],
   [Pablo Picasso],
@@ -76,7 +70,7 @@
   [Claude Monet],
 )
 
-#ib-exam.mcq(
+#mcq(
   [What is the boiling point of water at sea level in Celsius?],
   [90°C],
   [95°C],
@@ -84,7 +78,7 @@
   [105°C],
 )
 
-#ib-exam.saq(
+#saq(
   [A city has recently implemented a smart traffic management system that uses real-time data from sensors and cameras to optimize traffic flow. The system also collects and stores driver movement data to improve future predictions.],
   (
     question: [What are two potential benefits of using real-time data in traffic systems?],
@@ -98,7 +92,7 @@
   ),
 )
 
-#ib-exam.saq(
+#saq(
   [A company is using AI-powered recruitment software to filter job applications. The software ranks candidates based on qualifications, but some users have raised concerns about bias in the algorithm.],
   (
     question: [How might AI improve the efficiency of the hiring process?],
@@ -112,7 +106,7 @@
   ),
 )
 
-#ib-exam.saq(
+#saq(
   [A school has adopted a bring-your-own-device (BYOD) policy that encourages students to use their personal laptops and tablets during class. This has led to debates among teachers and parents.],
   (
     question: [Describe one advantage and one disadvantage of the BYOD policy for students.],

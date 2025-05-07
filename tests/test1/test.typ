@@ -1,7 +1,7 @@
-#import "/src/lib.typ" as ib-exam
+#import "/src/lib.typ": *
 
-#show: ib-exam.conf.with()
+#show: conf.with()
 
-#ib-exam.title-page()
+#title-page()
 
 <end>
