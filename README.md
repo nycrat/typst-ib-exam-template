@@ -64,6 +64,10 @@ A more in-depth description of usage. Any template arguments? A complicated exam
 #let my-complicated-example = ...
 ```
 
+## Fonts
+
+Default font for this format is Arial, if you don't have it installed on your system, install Arial.
+
 ## Additional Documentation and Acknowledgments
 
 - Project folder on server:

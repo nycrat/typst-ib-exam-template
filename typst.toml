@@ -16,9 +16,12 @@ disciplines = ["education"]
 exclude = [
   ".github",
   "docs",
+  "examples",
+  "fonts"
   "scripts",
   "tests",
   ".typstignore",
+  ".gitignore",
   "Justfile",
   "thumbnail.png",
 ]

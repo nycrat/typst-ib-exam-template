@@ -18,11 +18,11 @@ example:
 
 # run test suite
 test *args:
-  tt run {{ args }}
+  tt run {{ args }} --font-path fonts
 
 # update test cases
 update *args:
-  tt update {{ args }}
+  tt update {{ args }} --font-path fonts
 
 # package the library into the specified destination folder
 package target:
