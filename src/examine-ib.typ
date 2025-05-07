@@ -39,7 +39,7 @@
   background: [#align(right + bottom, image("footer.png", width: 50%))],
   {
     align(right, image("ib.png", width: 30%))
-    par(leading: 0.5em, spacing: 1.2em)[
+    par(leading: 0.1in)[
       #set text(13pt)
       #strong(subject)\
       #strong(level)\
