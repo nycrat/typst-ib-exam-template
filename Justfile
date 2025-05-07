@@ -6,11 +6,15 @@ export TYPST_ROOT := root
 default:
   @just --list --unsorted
 
-# generate manual
+# generate manual and thumbnails
 doc:
   typst compile docs/manual.typ docs/manual.pdf
   typst compile docs/thumbnail.typ thumbnail.png
   # typst compile --input theme=dark docs/thumbnail.typ thumbnail-dark.svg
+
+# generate examples
+example:
+  typst compile template/main.typ examples/example.pdf
 
 # run test suite
 test *args:
