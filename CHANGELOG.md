@@ -7,13 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-<details>
-<summary>Migration guide from v0.1.X</summary>
-
-<!-- Write migration guide here -->
-
-</details>
-
 ### Added
 
 ### Changed
@@ -26,14 +19,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
-## [0.1.0] - 2025-01-01
+## [0.1.0] - 2025-05-07
 
 ### Added
 
-## <!-- Describe the feature set of the initial release here -->
-
--
--
+- Initial Release
 
 <!--
 Below are the target URLs for each version

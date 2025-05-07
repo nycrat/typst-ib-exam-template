@@ -8,13 +8,13 @@ default:
 
 # generate manual and thumbnails
 doc:
-  typst compile docs/manual.typ docs/manual.pdf
-  typst compile docs/thumbnail.typ thumbnail.png
+  typst compile docs/manual.typ docs/manual.pdf --font-path fonts
+  typst compile docs/thumbnail.typ thumbnail.png --font-path fonts
   # typst compile --input theme=dark docs/thumbnail.typ thumbnail-dark.svg
 
 # generate examples
 example:
-  typst compile template/main.typ examples/example.pdf
+  typst compile template/main.typ examples/example.pdf --font-path fonts
 
 # run test suite
 test *args:
