@@ -38,7 +38,7 @@
   margin: (left: 1in, right: 1in, top: 0.40in),
   background: [#align(right + bottom, image("footer.png", width: 50%))],
   {
-    align(right, image("ib.png", width: 30%))
+    align(right, image("logo.png", width: 30%))
     par(leading: 0.1in)[
       #set text(13pt)
       #strong(subject)\
