@@ -17,13 +17,13 @@ exclude = [
   ".github",
   "docs",
   "examples",
-  "fonts"
+  "fonts",
   "scripts",
   "tests",
   ".typstignore",
   ".gitignore",
   "Justfile",
-  "thumbnail.png",
+  "thumbnail.png"
 ]
 
 [template]
