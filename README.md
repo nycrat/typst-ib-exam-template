@@ -1,6 +1,6 @@
 # IB Exam Template (examine-ib)
 
-<div align="center">Version 0.1.0</div>
+<div align="center">Version 0.1.1</div>
 
 This is a template for creating exams, tests, quizzes, based on the International Baccalaureate exam formatting for the IB Diploma Programme. This template allows for well formatted multiple choice questions, short answer questions, and title page for exams.
 
@@ -13,7 +13,7 @@ This is a template for creating exams, tests, quizzes, based on the Internationa
 ## Getting Started
 
 ```typ
-#import "@preview/examine-ib:0.1.0": *
+#import "@preview/examine-ib:0.1.1": *
 
 #show: conf.with(exam-id: [0000-0123])
 #title-page(
@@ -50,7 +50,7 @@ This is a template for creating exams, tests, quizzes, based on the Internationa
 For more information, see the [manual](https://github.com/NycRat/typst-ib-exam-template/blob/main/docs/manual.pdf)
 
 ```typ
-#import "@preview/examine-ib:0.1.0": *
+#import "@preview/examine-ib:0.1.1": *
 
 #show: conf.with(exam-id: [0000-0001])
 
