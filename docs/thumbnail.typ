@@ -1,6 +1,7 @@
 #import "/src/lib.typ": *
 
-// #let theme = sys.inputs.at("theme", default: "light")
+#let font = sys.inputs.at("font", default: "Libertinus Serif")
+#set text(font: font)
 
 #show: conf.with(exam-id: [0000-0000])
 

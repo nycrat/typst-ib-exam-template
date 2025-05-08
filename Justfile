@@ -8,22 +8,18 @@ default:
 
 # generate manual and thumbnails
 doc:
-  typst compile docs/manual.typ docs/manual.pdf --font-path fonts
-  typst compile docs/thumbnail.typ thumbnail.png --font-path fonts
-  typst compile docs/readme-thumbnail.typ readme-thumbnail-{0p}.png --font-path fonts
-  # typst compile --input theme=dark docs/thumbnail.typ thumbnail-dark.svg
-
-# generate examples
-example:
-  typst compile template/main.typ examples/example.pdf --font-path fonts
+  typst compile docs/manual.typ docs/manual.pdf
+  typst compile docs/thumbnail.typ thumbnail.png --input font=Arial
+  typst compile docs/readme-thumbnail.typ readme-thumbnail-{0p}.png --input font=Arial
+  typst compile examples/example.typ --input font=Arial
 
 # run test suite
 test *args:
-  tt run {{ args }} --font-path fonts
+  tt run {{ args }}
 
 # update test cases
 update *args:
-  tt update {{ args }} --font-path fonts
+  tt update {{ args }}
 
 # package the library into the specified destination folder
 package target:

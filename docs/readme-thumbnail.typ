@@ -1,8 +1,9 @@
 #import "/src/lib.typ": *
 
-// #let theme = sys.inputs.at("theme", default: "light")
-
 #show: conf.with(exam-id: [0000-0000])
+
+#let font = sys.inputs.at("font", default: "Libertinus Serif")
+#set text(font: font)
 
 #title-page()
 
