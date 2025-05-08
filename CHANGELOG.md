@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
+## [0.1.1] - 2025-05-07
+
+### Added
+
+- README documentation with examples
+
 ## [0.1.0] - 2025-05-07
 
 ### Added
@@ -32,5 +38,6 @@ to the corresponding tag on GitHub, or the diff
 in comparison to the previous release
 -->
 
-[Unreleased]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.0..v0.1.1
 [0.1.0]: https://github.com/nycrat/typst-ib-exam-template/releases/tag/v0.1.0
