@@ -10,6 +10,7 @@ default:
 doc:
   typst compile docs/manual.typ docs/manual.pdf --font-path fonts
   typst compile docs/thumbnail.typ thumbnail.png --font-path fonts
+  typst compile docs/readme-thumbnail.typ readme-thumbnail-{0p}.png --font-path fonts
   # typst compile --input theme=dark docs/thumbnail.typ thumbnail-dark.svg
 
 # generate examples

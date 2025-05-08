@@ -5,5 +5,3 @@
 #show: conf.with(exam-id: [0000-0000])
 
 #title-page()
-
-<end>

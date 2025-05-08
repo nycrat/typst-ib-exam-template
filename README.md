@@ -4,48 +4,85 @@
 
 This is a template for creating exams, tests, quizzes, based on the IB exam formatting.
 
-## Getting Started
+<picture style="display: flex;">
+  <img src="./readme-thumbnail-1.png" style="max-width: 50%;">
+  <img src="./readme-thumbnail-2.png" style="max-width: 50%;">
+</picture>
 
-These instructions will get you a copy of the project up and running on the typst web app. Perhaps a short code example on importing the package and a very simple teaser usage.
+## Getting Started
 
 ```typ
 #import "@preview/examine-ib:0.1.0": *
 
-#show: my-show-rule.with()
-#my-func()
+#show: conf.with(exam-id: [0000-0123])
+#title-page(
+  subject: [General Knowledge],
+  level: [Higher Level],
+  paper: [Paper 3],
+  date: [19 May 2028],
+  time-limit: [55 minutes],
+)
+
+#mcq(
+  [What is the capital of Canada?],
+  [Toronto],
+  [Ottawa],
+  [Vancouver],
+  [Montreal],
+)
 ```
 
-<picture>
-  <img src="./thumbnail.png">
-</picture>
-
-### Installation
-
-A step by step guide that will tell you how to get the development environment up and running. This should explain how to clone the repo and where to (maybe a link to the typst documentation on it), along with any pre-requisite software and installation steps.
-
-```
-$ First step
-$ Another step
-$ Final step
-```
+<!-- ### Installation -->
+<!---->
+<!-- A step by step guide that will tell you how to get the development environment up and running. This should explain how to clone the repo and where to (maybe a link to the typst documentation on it), along with any pre-requisite software and installation steps. -->
+<!---->
+<!-- ``` -->
+<!-- $ First step -->
+<!-- $ Another step -->
+<!-- $ Final step -->
+<!-- ``` -->
+<!---->
+<!-- ### Fonts -->
+<!---->
+<!-- Default font for this format is Arial, if you don't have it installed on your system, install Arial. -->
 
 ## Usage
 
 A more in-depth description of usage. Any template arguments? A complicated example that showcases most if not all of the functions the package provides? This is also an excellent place to signpost the manual.
 
 ```typ
-#import "@preview/:0.1.0": *
+#import "/src/lib.typ": *
 
-#let my-complicated-example = ...
+#show: conf.with(exam-id: [0000-0001])
+
+#title-page(
+  subject: [General Knowledge],
+  level: [Higher Level],
+  paper: [Paper 3],
+  date: [19 May 2028],
+  time-limit: [55 minutes],
+)
+
+#mcq(
+  [Which Shakespeare play features the characters Rosencrantz and Guildenstern?],
+  [Macbeth],
+  [Hamlet],
+  [King Lear],
+  [Othello],
+)
+
+#saq(
+  [A city has recently implemented a smart traffic management system that uses real-time data from sensors and cameras to optimize traffic flow. The system also collects and stores driver movement data to improve future predictions.],
+  (
+    question-context: [Another city is considering the implementation of a smart traffic management system.],
+    question: [What are two potential benefits of using real-time data in traffic systems?],
+    points: 2,
+    lines: 3,
+  ),
+  (
+    question: [Explain one concern related to collecting and storing driver movement data.],
+    points: 4,
+    lines: 5,
+  ),
+)
 ```
-
-## Fonts
-
-Default font for this format is Arial, if you don't have it installed on your system, install Arial.
-
-## Additional Documentation and Acknowledgments
-
-- Project folder on server:
-- Confluence link:
-- Asana board:
-- etc...
