@@ -1,13 +1,14 @@
-# IB Exam Template
+# IB Exam Template (examine-ib)
 
 <div align="center">Version 0.1.0</div>
 
-This is a template for creating exams, tests, quizzes, based on the IB exam formatting.
+This is a template for creating exams, tests, quizzes, based on the International Baccalaureate exam formatting for the IB Diploma Programme. This template allows for well formatted multiple choice questions, short answer questions, and title page for exams.
 
-<picture style="display: flex;">
-  <img src="./readme-thumbnail-1.png" style="max-width: 50%;">
-  <img src="./readme-thumbnail-2.png" style="max-width: 50%;">
-</picture>
+## Example
+
+|          Title Page           |           Questions           |
+| :---------------------------: | :---------------------------: |
+| ![](./readme-thumbnail-1.png) | ![](./readme-thumbnail-2.png) |
 
 ## Getting Started
 
@@ -17,9 +18,7 @@ This is a template for creating exams, tests, quizzes, based on the IB exam form
 #show: conf.with(exam-id: [0000-0123])
 #title-page(
   subject: [General Knowledge],
-  level: [Higher Level],
-  paper: [Paper 3],
-  date: [19 May 2028],
+  date: [7 May 2025],
   time-limit: [55 minutes],
 )
 
@@ -48,10 +47,10 @@ This is a template for creating exams, tests, quizzes, based on the IB exam form
 
 ## Usage
 
-A more in-depth description of usage. Any template arguments? A complicated example that showcases most if not all of the functions the package provides? This is also an excellent place to signpost the manual.
+For more information, see the [manual](https://github.com/NycRat/typst-ib-exam-template/blob/main/docs/manual.pdf)
 
 ```typ
-#import "/src/lib.typ": *
+#import "@preview/examine-ib:0.1.0": *
 
 #show: conf.with(exam-id: [0000-0001])
 
