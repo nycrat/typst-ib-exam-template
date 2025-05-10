@@ -29,6 +29,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Arial as default font
 
+### Fixed
+
+- CI tests fail to build docs with Arial
+
 ## [0.1.0] - 2025-05-07
 
 ### Added
