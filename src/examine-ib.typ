@@ -34,12 +34,14 @@
   paper: "Paper 1",
   date: "7 May 2025",
   time-limit: "2 hours",
+  logo: image("logo.png", width: 30%),
+  footer: image("footer.png", width: 50%),
 ) = page(
   header: none,
   margin: (left: 1in, right: 1in, top: 0.40in),
-  background: [#align(right + bottom, image("footer.png", width: 50%))],
+  background: [#align(right + bottom, footer)],
   {
-    align(right, image("logo.png", width: 30%))
+    align(right, logo)
     par(leading: 0.1in)[
       #set text(13pt)
       #strong(subject)\
