@@ -2,9 +2,9 @@
 #let exam-id-state = state("exam-id", [0000-0000])
 
 
-#let conf(doc, exam-id: [0000-0000]) = {
+#let conf(doc, exam-id: [0000-0000], page-size: "us-letter") = {
   set page(
-    "us-letter",
+    page-size,
     margin: (left: 1in - ib-indent, right: 1in - ib-indent),
     header: [
       #text(white, exam-id)
@@ -15,7 +15,7 @@
       #h(1fr) #exam-id
     ],
   )
-  set par(spacing: 0.25in, leading: 0.25in)
+  set par(spacing: 0.30in, leading: 0.25in)
 
   set text(11pt)
   set table(inset: 0em, stroke: none)
