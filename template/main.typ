@@ -1,4 +1,4 @@
-#import "@preview/examine-ib:0.1.1": *
+#import "@preview/examine-ib:0.1.2": *
 
 #show: conf.with(exam-id: [0000-0001])
 

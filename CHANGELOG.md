@@ -23,9 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Option for user defined logo and footer
-- Config for page sizing
-
 ### Changed
 
 ### Deprecated
@@ -35,6 +32,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
+
+## [0.1.2] - 2025-07-13
+
+### Added
+
+- Option for user defined logo and footer
+- Config for page sizing
 
 ## [0.1.1] - 2025-05-08
 
@@ -63,6 +67,7 @@ to the corresponding tag on GitHub, or the diff
 in comparison to the previous release
 -->
 
-[Unreleased]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.1..v0.1.2
 [0.1.1]: https://github.com/nycrat/typst-ib-exam-template/compare/v0.1.0..v0.1.1
 [0.1.0]: https://github.com/nycrat/typst-ib-exam-template/releases/tag/v0.1.0
